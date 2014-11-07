@@ -33,7 +33,7 @@ int main (void) {
     s5 = ( (bn/5)*(5+bn) )/2;
     s15 = ( (cn/15)*(15+cn) )/2;
 
-//  printf ( "Sum of 3-seq is %d\nSum of 5-seq is %d\nSum of 15-seq is %d\n", s3, s5, s15 );
+    printf ( "Sum of 3-seq is %d\nSum of 5-seq is %d\nSum of 15-seq is %d\n", s3, s5, s15 );
     printf ( "Final sum is %d\n", (s3 + s5) -s15 );
 
     return 0;
