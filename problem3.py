@@ -4,7 +4,7 @@
 
 FILE            : problem3.py
 
-DESCRIPTION     : Project Euler--Problem2 solution/implementation
+DESCRIPTION     : Project Euler--Problem3 solution/implementation
 		  in Python
 		: Find max prime factor of a given number
 
