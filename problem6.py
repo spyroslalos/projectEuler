@@ -4,9 +4,8 @@
 
 FILE            : problem6.py
 
-DESCRIPTION     : Project Euler--Problem6 solution/implementation
-		          in Python
-		        :
+DESCRIPTION     : Project Euler--Problem6 solution/implementation in Python
+		: Find square of sums and sum of squares of a sequence of numbers
 
 REQUIREMENTS    : None
 BUGS            : Must be somewhere hiding :P.
