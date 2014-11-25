@@ -21,3 +21,13 @@ CREATED         : Nov 24 #:#:# CEST 2014
 
 #=============================================================================#
 """
+from myMathAPI import is_prime
+
+nprime = 1
+i = 3
+
+while nprime <= 10000:
+    if is_prime (i):
+        nprime += 1
+        print "%d is prime" % (i)
+    i += 2
