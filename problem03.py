@@ -2,7 +2,7 @@
 """
 #=============================================================================#
 
-FILE            : problem3.py
+FILE            : problem03.py
 
 DESCRIPTION     : Project Euler--Problem3 solution/implementation
 		  in Python
