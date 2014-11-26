@@ -46,11 +46,7 @@ def fibo ():
 	flist.append(c)
 	a = b
 	b = c
-	print "{0}:{1}".format ( "Current fibonacci: ", c)
 
+    print "{0}:{1}".format ( "Current fibonacci: ", c)
     print "Fibonacci list is: {0} and Sum of even numbers is {1}".format(flist, sum)
-
-if __name__ == "__main__":
-    fibo ()
-    sys.exit
 
