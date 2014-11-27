@@ -21,4 +21,14 @@ CREATED         : Nov 27 #:#:# CEST 2014
 
 #=============================================================================#
 """
+from myMathAPI import my_palindrome
+viable_palin = []
 
+for i in range( 999, -1, -1 ):
+    for j in range( 999, -1, -1 ):
+        if my_palindrome( i*j ):
+            print i, j
+            viable_palin.append( i*j )
+
+print viable_palin  
+print max( viable_palin )
