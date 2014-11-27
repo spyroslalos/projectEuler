@@ -22,3 +22,17 @@ CREATED         : Nov 27 #:#:# CEST 2014
 
 #=============================================================================#
 """
+import math
+from myMathAPI import is_prime
+
+sum = 2
+i = 3
+
+# dumb solution -> needs improvement
+while i < (2000000):
+    if is_prime(i):
+        sum = sum + i
+        print "%d is prime" % (i)
+    i += 2
+
+print sum
