@@ -28,3 +28,12 @@ def is_prime (n):
         if ( n%i ) == 0:
             return False
     return True
+
+def my_palindrome (num):
+    m = int(str(num)[::-1])
+    if m == num:
+        return True
+    else:
+        return False
+
+
