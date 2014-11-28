@@ -11,7 +11,7 @@ REQUIREMENTS    : None
 BUGS            : Must be somewhere hiding :P.
 NOTES           : 
 AUTHOR(s)       : Spyros Lalos (spyroslal@gmail.com)
-CREATED         : Nov 06 23:04:12 CEST 2014
+CREATED         : Nov 28 #:#:# CEST 2014
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the Cern.
@@ -26,9 +26,10 @@ import math
 import sys
 
 
-# define start integers
+# define start fibonacci
 a = 1
 b = 2 
+# 1,1,2 preceding fibo numbers
 term = 3
 flist = []
 flist.append (1)
@@ -44,4 +45,4 @@ while True :
     a = b
     b = c
 
-print "First fibo with 1000 digits = %d" % (term)
+print "Term for fibo number with 1000 digits = %d" % (term)
