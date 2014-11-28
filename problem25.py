@@ -31,11 +31,7 @@ a = 1
 b = 2 
 # 1,1,2 preceding fibo numbers
 term = 3
-flist = []
-flist.append (1)
-flist.append (2)
 c = a + b
-sum = 2
 
 while True :
     c = a + b
