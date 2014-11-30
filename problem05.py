@@ -21,3 +21,21 @@ CREATED         : Nov 30 #:#:# CEST 2014
 
 #=============================================================================#
 """
+import sys
+
+"""
+Check if given number is divisible
+by all items of [1, ..., 20]
+"""
+def div20(num):
+    for i in range(1,11):
+        if num%i != 0:
+            return False
+    return True
+
+count = 10
+while True:
+    if div20(count):
+        print count 
+        break
+    count += 10
