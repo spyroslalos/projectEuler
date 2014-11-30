@@ -4,7 +4,7 @@
 
 FILE            : problem05.py
 
-DESCRIPTION     : Project Euler--Problem7 solution/implementation in Python
+DESCRIPTION     : Project Euler--Problem05 solution/implementation in Python
                   Find smallest num evenly divised by [1, ..., 20]
 REQUIREMENTS    : None
 BUGS            : Must be somewhere hiding :P.
@@ -28,14 +28,14 @@ Check if given number is divisible
 by all items of [1, ..., 20]
 """
 def div20(num):
-    for i in range(1,11):
+    for i in range(1,21):
         if num%i != 0:
             return False
     return True
 
-count = 10
+count = 20
 while True:
     if div20(count):
         print count 
         break
-    count += 10
+    count += 20
