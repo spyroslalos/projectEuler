@@ -21,3 +21,16 @@ CREATED         : Dec 01 #:#:# CEST 2014
 
 #=============================================================================#
 """
+import sys
+
+class Found(Exception): pass
+
+ul = 1000
+try:
+    for a in range (1,1000,1):
+        for b in range (a+1, 1000,1):
+            c=1000-a-b
+            if a**2 + b**2 == c**2:
+                raise Found
+except Found:
+    print "Product of abc is %d" % (a*b*c)
