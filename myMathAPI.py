@@ -31,3 +31,6 @@ def is_prime (n):
 
 def my_palindrome (num):
     return str(num) == str(num)[::-1]
+
+def dumb_sum_digits (num):
+    return sum( [int(n) for n in str(num)] )
