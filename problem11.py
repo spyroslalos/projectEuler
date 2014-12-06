@@ -16,3 +16,10 @@ CREATED         : Dec 6 #:#:# CEST 2014
     it freely.
 #=============================================================================#
 """
+
+input = open ("input11")
+arr2d = []
+for line in input:
+    tmp = line.rstrip().split(" ")
+    arr2d.append(tmp)
+    print arr2d
