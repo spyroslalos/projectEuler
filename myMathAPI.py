@@ -34,3 +34,9 @@ def my_palindrome (num):
 
 def dumb_sum_digits (num):
     return sum( [int(n) for n in str(num)] )
+
+def factorial (num):
+    if num ==1 :
+        return 1
+    else:
+        return num*factorial(num -1)
