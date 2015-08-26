@@ -2,4 +2,4 @@ Efficient implementations/answers for some of the Project's Euler problems exper
 ======
 * Avoiding linear complexity. 
 * Finding the most efficient possible solution
-*implemented mainly in python
+* implemented mainly in python
